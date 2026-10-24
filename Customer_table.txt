@@ -1,0 +1,12 @@
+create table Customer (
+   cust_id	varchar(7)   not null,
+   cust_name	varchar(25) not null,
+   gender	char(6),
+   email	varchar(30),
+   phone	varchar(14),
+   staff_id	varchar(10),	
+primary key(cust_id),
+constraint chk_cust_email check (REGEXP_LIKE(email,'^[a-zA-Z]\w+@(\S+)$')),
+constraint chk_cust_gender check (gender in ('Male','Female')),
+foreign key (staff_id) references staff1(staff_id)
+);

@@ -1,0 +1,29 @@
+insert into staff values
+('S001','Nicholas Ng', 'Male', 'nichonicho@legoclothing.com', '012-3456789', '01-JAN-2020', '23-MAY-2000', 'Cashier', '2500.00', '3501' );
+
+INSERT INTO staff VALUES
+('S002','Rimasree','Female','rimasree@legoclothing.com','013-5566778', '15-FEB-2019','12-MAR-1998','Supervisor','3200.00','3501');
+
+INSERT INTO staff VALUES
+('S003','Jason Lee','Male','jasonlee@legoclothing.com','014-6677889', '10-MAR-2021','09-SEP-1997','Sales Assistant','2300.00','3501');
+
+INSERT INTO staff VALUES
+('S004','Nurul Aina','Female','nurulaina@legoclothing.com','017-3344556', '05-APR-2020','03-DEC-1996','Cashier','2400.00','3502');
+
+INSERT INTO staff VALUES
+('S005','Pravin Raj','Male','pravinraj@legoclothing.com','016-2233445', '21-JUL-2022','25-APR-2002','Stock Keeper','2100.00','3502');
+
+INSERT INTO staff VALUES
+('S006','Joanne Goh','Female','joannegoh@legoclothing.com','019-9988776', '12-AUG-2018','09-NOV-1995','Manager','3800.00','3502');
+
+INSERT INTO staff VALUES
+('S007','Sai Seelan','Male','saiseelan@legoclothing.com','018-5566778', '01-JUN-2019','22-JAN-1994','Supervisor','3600.00','3503');
+
+INSERT INTO staff VALUES
+('S008','Aiysah','Female','aiysah@legoclothing.com','012-1122334', '03-SEP-2023','19-MAR-2001','Cashier','2000.00','3503');
+
+INSERT INTO staff VALUES
+('S009','Brandon Teo','Male','brandonteo@legoclothing.com','013-8899001', '20-NOV-2020','30-AUG-1998','Sales Assistant','2300.00','3503');
+
+INSERT INTO staff VALUES
+('S010','Muhammad Faris','Male','faris@legoclothing.com','017-5566778', '05-OCT-2017','14-JUL-1993','Manager','4000.00','3503');

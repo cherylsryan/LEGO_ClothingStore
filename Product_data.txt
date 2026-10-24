@@ -1,0 +1,10 @@
+INSERT INTO Product VALUES (101, 'Basic T-Shirt', 'Tops', 29.90);
+INSERT INTO Product VALUES (102, 'Oversized Hoodie', 'Tops', 89.90);
+INSERT INTO Product VALUES (103, 'Slim Fit Jeans', 'Bottoms', 79.90);
+INSERT INTO Product VALUES (104, 'Skater Dress', 'Dresses', 99.90);
+INSERT INTO Product VALUES (105, 'Cap', 'Accessories', 19.90);
+INSERT INTO Product VALUES (106, 'Formal Shirt', 'Tops', 59.90);
+INSERT INTO Product VALUES (107, 'Cargo Pants', 'Bottoms', 69.90);
+INSERT INTO Product VALUES (108, 'Bomber Jacket', 'Tops', 129.90);
+INSERT INTO Product VALUES (109, 'Maxi Dress', 'Dresses', 119.90);
+INSERT INTO Product VALUES (110, 'Sunglasses', 'Accessories', 39.90);

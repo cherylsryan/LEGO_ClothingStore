@@ -1,0 +1,8 @@
+create table order_detail (
+   order_code	number(4)  not null,
+   product_code	number(3) not null,
+   quantity	number(5),
+primary key(order_code,product_code),
+foreign key(order_code) references orders1(order_code),
+foreign key(product_code) references product(product_code)
+);

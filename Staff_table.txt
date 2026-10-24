@@ -1,0 +1,18 @@
+ALTER SESSION SET NLS_DATE_FORMAT = 'DD-MON-YYYY';
+
+CREATE TABLE STAFF (
+	staff_id	varchar(10)	not null,
+	staff_name	varchar(20)	not null,
+	gender		char(6),
+	email		varchar(30),
+	telephone	varchar(15),
+	date_join	date,
+	birth_date	date,
+	position	varchar(17),
+	salary_RM	number(10, 2),
+	store_code	number(4),
+primary key(staff_id),
+FOREIGN KEY(store_code) REFERENCES STORE(store_code),
+constraint chk_staff_email check (REGEXP_LIKE(email,'^[a-zA-Z]\w+@(\S+)$')),
+constraint chk_staff_gender check (gender in ('Male','Female'))
+);

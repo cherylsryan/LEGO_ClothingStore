@@ -1,0 +1,20 @@
+insert into Customer values
+('C0001', 'Lim Wei Jian', 'Male', 'weijianlim@hotmail.com', '012-3456781','S001');
+insert into Customer values
+('C0002', 'Nur Aisyah', 'Female', 'aisyahrahman@email.com', '013-5566782','S002');
+insert into Customer values
+('C0003', 'Arun Kumar', 'Male', 'arunkumar@email.com', '014-6677893','S003');
+insert into Customer values
+('C0004', 'Tan Li Xuan', 'Female', 'lixuantan@qq.com', '011-2233456','S004');
+insert into Customer values
+('C0005', 'Mohammad Hakim', 'Male', 'hakimi@gmail.com', '017-8899001','S005');
+insert into Customer values
+('C0006', 'Saraswathy Devi', 'Female', 'sarasdevi@hotmail.com', '016-3344567','S006');
+insert into Customer values
+('C0007', 'Goh Mei Ling', 'Female', 'meilinggoh@gmail.com', '010-1122445','S007');
+insert into Customer values
+('C0008', 'Muhammad Firdaus', 'Male', 'ahmadf@email.com', '018-4455778','S008');
+insert into Customer values
+('C0009', 'Rajesh Chandran', 'Male', 'rajeshc@email.com', '019-5566889','S009');
+insert into Customer values
+('C0010', 'Chong Siew Yun', 'Female', 'siewyunchong@qq.com', '012-7788992','S010');
